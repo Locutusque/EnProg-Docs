@@ -29,6 +29,13 @@ templates_path = ['_templates']
 
 master_doc = 'index.md'
 
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+    '.txt': 'text',
+}
+
+
 
 # -- Options for HTML output
 
